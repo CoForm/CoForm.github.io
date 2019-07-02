@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i');
+
+body {
+  max-width: 960px;
+  min-width: 480px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: cornflowerblue;
+  height: 10.5em;
+}
+
+.logo {
+  width: 8.5em;
+  height: 8.5em;
+  padding: 20px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+h1 {
+  font-family: Architects Daughter;
+  font-size: 2.25em;
+  margin: 0;
+}
+
+.tagline {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.25em;
+}
+
+article {
+  float: left;
+  max-width: 66%;
+  padding: 50px;
+}
+
+h2 {
+  font-family: Architects Daughter;
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+
+article p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.125em;
+  margin-top: 30px;
+}
+
+aside {
+  float: left;
+  max-width: 29%;
+  padding: 10px;
+}
+
+.team {
+  max-width: 100%;
+}
+
+.whatsnew {
+  font-family: 'Arimo', sans-serif;
+  font-size: .9em;
+  margin-top: 0;
+}
+
+.whatsnew .date {
+  font-weight: bold;
+}
+
+footer {
+  float: right;
+  width: 100%;
+  background-color: #a3a;
+  color: black;
+}
+
+footer p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.125em;
+  margin: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  article {
+    max-width: 100%;
+  }
+
+  aside {
+    max-width: 100%;
+  }
+
+  .team {
+    max-width: 255px;
+  }
+}
+
+.notice {
+  font-weight: bold;
+  color: red;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.textbox {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,55 @@
+body {
+  max-width: none;
+  min-width: auto;
+}
+
+header {
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+  height: 15.5em;
+}
+
+.logo {
+  width: 6em;
+  height: 6em;
+  padding: 10px;
+}
+
+.banner {
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.tagline {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1em;
+}
+
+article {
+  max-width: none;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+article p {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+aside {
+  max-width: none;
+  min-width: auto;
+}
+
+footer p {
+  font-size: 1em;
+}
